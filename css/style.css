@@ -1,0 +1,699 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+header{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
+
+.header-nav{
+    float: right;
+    margin: 55px 350px 0 0;
+}
+
+.menulogo , .closelogo{
+    display: none;
+}
+
+#nav-home, #nav-about, #nav-blog, #nav-contact{
+    padding: 0 30px;
+    color: #7a6666;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-image{
+    margin: 40px 0 0 350px;
+    height: 35px;
+}
+
+
+/* style rules for main section*/
+.main-section{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.main-bgimage{
+    height: 42em;
+    padding-left: 200px;
+    position: relative;
+    width: 70%;
+}
+
+.freeze-image{
+    margin: -230px 0 0 950px;
+    position: absolute;
+    z-index: 999;
+    background-image: url('../images/freezeicon.png');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.freeze-delight{
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*style rule for new product section*/
+.new-product{
+    height: 280px;
+    width: 100%;
+    background-color: black;
+    margin: -22px 0px 0px 0px;
+    padding: 0px;
+}
+
+.body-new-product{
+    margin-left: 300px;
+
+}
+
+.body-new-product > h4{
+    color: #7a6666;
+}
+
+.body-new-product > p{
+    color: #7a6666;
+}
+
+.body-new-product > h2{
+    color: #cb3362;
+}
+
+.image-yogurt{
+    float: right;
+    margin: 30px 350px 0px 0px;
+    transform: rotate(-35deg);   
+}
+
+.body-new-product > h4{
+    padding-top: 70px;
+}
+
+/*style rule for other-product section*/
+.other-product-section{
+    background-color: #c8c10d;
+    padding-left: 230px;
+}
+
+.other-product-section h3{
+    color: #ffffff;
+}
+
+.other-section{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+/*style rule for footer*/
+.footer{
+    background-color: #cb3362;
+    padding: 50px 0 50px 600px;
+}
+
+.footer > p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.icon{
+    padding-right: 40px;
+}
+
+/* styles for the about page */
+
+.about-heading{
+    width: 100%;
+    background-color: #c8c10d;
+    height: 80px;
+    margin-top: -30px;
+}
+
+.about-topic > h1{
+    padding: 30px 0 0 47%;
+    color: #ffffff;
+}
+
+.about-header-background{
+    padding-left: 8%;
+    background-color: #eeebec;
+}
+
+.about-backgound{
+    width: 100%;
+}
+
+/* styles for the contact page */
+.inquiry{
+    border: none;
+    padding: 30px 0 0 42%;
+    color: #cb3362;
+    font-size: 25px;
+}
+.form-input{
+    width: 35%;
+    display: block;
+    margin: 25px 0 25px 30%;
+    padding: 15px 10px;
+    border: solid #7a6666 2px;
+}
+
+#submit-button{
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* styles for blog.html page */
+.main-blog{
+    width: 100%;
+    align-content: center;
+}
+article{
+    padding: 20px 10px 20px 20%;
+    width: 40%;
+}
+
+.strawberriesimg{
+    padding: 40px 20px 40px 5px;
+}
+
+.strawberries{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+
+.berriesimg{
+    padding: 40px 20px 40px 5px;
+}
+
+.berries{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+
+.aside{
+    position: absolute;
+    top: 170px;
+    left: 62%;
+    width: 250px;
+    height: 550px;
+    background-color: #eae7e8;
+    align-content: center;
+}
+.recent-header{
+    padding: 15px;
+    text-align: center
+}
+.dietimg{
+    padding: 5px 22px;
+}
+
+.diet{
+    padding: 15px;
+    text-align: justify;
+}
+
+.on-diet{
+    text-align: center;
+}
+
+
+/* mini laptops from 1121px to 1400px*/
+@media only screen and (min-width: 1121px)
+and (max-width: 1400px) {
+    
+    .header-nav{
+        float: right;
+        margin: 55px 10% 0 0;
+    }
+    
+    #nav-home, #nav-about, #nav-blog, #nav-contact{
+        padding: 0 20px;
+    }
+    
+    .logo-image{
+        margin: 40px 0 0 350px;
+        height: 35px;
+    }
+    
+/* style rules for main section*/
+    .main-section{
+        height: 600px;
+    }
+
+    .main-bgimage{
+        height: 500px;
+        padding-left: 15%;
+        position: relative;
+        width: 70%;
+    }
+    
+    .freeze-image{
+        margin: -260px 0 0 760px;
+        position: absolute;
+        z-index: 999;
+        background-image: url('../images/freezeicon.png');
+        background-position: center;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+    }
+    
+    .freeze-delight{
+        padding: 20px;
+        text-align: center;
+        font-size: 16.5px;
+    }
+
+/*style rule for new product section*/
+    .new-product{
+        margin: -22px 0px 0px 0px;
+        padding: 0px;
+    }
+    
+    .body-new-product{
+        margin-left: 200px;
+    }
+
+    .image-yogurt{
+        float: right;
+        margin: 30px 200px 0px 0px; 
+    }
+    
+    .body-new-product > h4{
+        padding-top: 70px;
+    }
+
+/*style rule for other-product section*/
+    .other-product-section{
+        padding-left: 170px;
+        
+    }
+
+    .other-product-section img{
+        height: 42px;
+        width: 51px;
+    }
+
+    .other-section{
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        padding: 60px 0;
+    }
+
+/*style rule for footer*/
+    .footer{
+        padding: 40px 0 40px 35%;
+    }
+   
+}
+
+/* Tablets and ipad from 641px to 1120px*/
+@media only screen and (min-width: 641px)
+and (max-width: 1120px) {
+
+    header{
+        height: 120px;
+        width: 100%;
+    }
+
+    .logo-image{
+        margin: 40px 0 0 43%;
+        height: 35px;
+    }
+    
+    .header-nav{
+        float: left;
+        margin: 55px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #nav-home, #nav-about, #nav-blog, #nav-contact{
+        padding: 0 25px;
+        width: 40px;
+    }
+
+/* style rules for main section*/
+    .main-section{
+        width: 100%;
+        height: 500px;
+    }
+
+    .main-bgimage{
+        height: 400px;
+        padding-left: 80px;
+        position: relative;
+        width: 70%;
+    }
+
+    .freeze-image{
+        margin: -200px 0 0 375px;
+        position: absolute;
+        z-index: 999;
+        background-image: url('../images/freezeicon.png');
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+    }
+
+    .freeze-delight{
+        padding: 15px;
+        text-align: center;
+        font-size: 13.5px;
+    }
+
+/*style rule for new product section*/
+    .new-product{
+        height: 200px;
+        width: 100%;
+        margin: -22px 0px 0px 0px;
+    }
+
+    .body-new-product{
+        margin-left: 50px;
+
+    }
+
+    .image-yogurt{
+        float: right;
+        margin: 23px 33px 0px 0px;
+        height: 154px;
+        width: 130px;
+    }
+
+    .body-new-product > h4{
+        padding-top: 30px;
+    }
+
+    .body-new-product > h4{
+        font-size: 95%;
+    }
+    
+    .body-new-product > p{
+        font-size: 95%;
+    }
+    
+    .body-new-product > h2{
+        font-size: 95%;
+    }
+
+    /*style rule for other-product section*/
+    .other-product-section{
+        padding-left: 20%;
+        
+    }
+
+    .other-product-section img{
+        height: 37px;
+        width: 46px;
+    }
+
+    .other-product-section h3{
+        font-size: 85%;
+    }
+
+    .other-section{
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+/*style rule for footer*/
+    .footer{
+        padding: 40px 0 40px 35%;
+    }
+
+    .footer > p{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .icon{
+        padding-right: 40px;
+    }
+
+    /* style for contact page */
+    .form-input{
+        width: 60%;
+        margin: 50px 0 50px 20%;
+    }
+
+    /*style for blog page*/
+    article{
+        padding: 20px 10px 0 30%;
+        width: 40%;
+    }
+    
+    .strawberriesimg, .berriesimg, .dietimg{
+        padding: 20px 110px;
+    }
+    
+    .strawberries{
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+    }
+    
+    .berries{
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+    }
+    #strawb , #cranberry{
+        text-align: center;
+    }
+
+    .aside{
+        position: static;
+        width: 400px;
+        height: 500px;
+        background-color: #eae7e8;
+        align-content: center;
+        margin: 5px 0 50px 30%;
+    }
+
+}
+
+/* mobile phones from 320px to 640px*/
+@media only screen and (min-width: 320px)
+and (max-width: 640px) {
+    
+    header{
+        height: 80px;
+    }
+
+    .logo-image{
+        height: 20px;
+        width: 70px;
+        margin-left: 190px;
+    }
+
+    .header-nav{
+        z-index: 999;
+        position: fixed;
+        top: -55px;
+        background-color: #cb3362;
+        padding: 20px;
+        display: none;
+    }
+
+    .menulogo{
+        display: inline-block;
+        margin-left: 0;
+        z-index: 999;
+        position: absolute;
+    }
+
+    .closelogo{
+        display: none;
+    }
+    
+
+    #nav-home, #nav-about, #nav-blog, #nav-contact{
+        margin: 30px 0;
+        color: #7a6666;
+        height: 20px;
+        display: block;
+    }
+
+    .main-section{
+        background-color: #f8f8f8;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .main-bgimage{
+        height: 200px;
+        position: relative;
+        width: 100%;
+        margin: 50px 0 0 -200px;
+    }
+    
+    .freeze-image{
+        margin: -120px 0 0 230px;
+        position: absolute;
+        z-index: 999;
+        background-image: url('../images/freezeicon.png');
+        background-position: center;
+        background-size: cover;
+        height: 75px;
+        width: 75px;
+    }
+    
+    .freeze-delight{
+        padding: 15px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 10px;
+    }
+
+/*style rule for new product section*/
+    .new-product{
+        height: 200px;
+        width: 100%;
+        margin: -22px 0px 0px 0px;
+    }
+
+    .body-new-product{
+        margin-left: 45px;
+        margin-right: 20px,
+
+    }
+
+    .image-yogurt{
+        float: right;
+        margin: 60px 28px 0 0;
+        padding-left: 25px;
+        height: 120px;
+        width: 90px;
+    }
+
+    .body-new-product > h4{
+        padding-top: 7px;
+    }
+
+    .body-new-product > h4{
+        font-size: 90%;
+    }
+    
+    .body-new-product > p{
+        font-size: 88%;
+    }
+    
+    .body-new-product > h2{
+        font-size: 90%;
+    }
+
+/*style rule for other-product section*/
+    .other-product-section{
+        padding-left: 45px;
+    }
+
+    .other-product-section img{
+        height: 37px;
+        width: 46px;
+    }
+
+    .other-product-section h3{
+        font-size: 85%;
+    }
+
+    .other-section{
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        padding: 10px 0;
+    
+    }
+
+    /*style rule for footer*/
+    .footer{
+        padding: 30px 0 30px 30%;
+    }
+
+    .footer > p{
+        font-size: 8.5px;
+        padding-top: 10px;
+    }
+
+    .icon{
+        padding-right: 13px;
+    }
+
+    .footer img{
+        width: 25px;
+        height: 21px;
+    } 
+
+    /*style for blog page*/
+    article{
+        margin: 20px 10px -70px 10%;
+        width: 70%;
+        font-size: 77%;
+        padding: 5px 10px;
+    }
+    
+    .strawberriesimg, .berriesimg, .dietimg{
+        padding: 10px 30%;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .strawberries{
+        display: inline-block;
+        width: 100%;
+        height: 300px;
+        margin-bottom: -40px;
+    }
+    
+    .berries{
+        display: inline-block;
+        width: 100%;
+        height: 300px;
+    }
+
+    #strawb , #cranberry{
+        text-align: center;
+    }
+
+    .aside{
+        position: static;
+        width: 70%;
+        height: 400px;
+        background-color: #eae7e8;
+        align-content: center;
+        margin: 0 10px 50px 10%;
+        padding: 5px 10px;
+        font-size: 77%;
+    }
+
+    /* style for contact page */
+    .form-input{
+        width: 65%;
+        margin: 30px 0 30px 20%;
+    }
+}
